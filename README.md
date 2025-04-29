@@ -48,9 +48,9 @@ git clone https://github.com/oJotaaa/ProjetoChatbot.git
 ```
 
 2. Obtenha o seu próprio Token do Bot API:
-• Converse com o @[BotFather](https://t.me/BotFather) no Telegram.
-• Crie um novo bot seguindo as instruções.
-• O BotFather irá fornecer um token único para o seu bot.
+    - Converse com o @[BotFather](https://t.me/BotFather) no Telegram.
+    - Crie um novo bot seguindo as instruções.
+    - O BotFather irá fornecer um token único para o seu bot.
 
 3. Crie um arquivo .env na raiz do projeto.
 
