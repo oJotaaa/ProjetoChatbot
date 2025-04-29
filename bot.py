@@ -1,11 +1,16 @@
+import os
 import random
 import requests
 from bs4 import BeautifulSoup
+from dotenv import load_dotenv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, CallbackQueryHandler
 
+# Carrega as variáveis do arquivo .env
+load_dotenv()
+
 # Atribui o Token do BotAPI
-TOKEN = '7019424773:AAGf2Q5cfFAga1fMzU4Solm9OlVJ-4eMB5s'
+TOKEN = os.environ.get("BOT_TOKEN")
 
 # Cria uma lista com algumas curiosidades sobre a FURIA
 curiosidades = [

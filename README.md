@@ -49,7 +49,7 @@ git clone https://github.com/oJotaaa/ProjetoChatbot.git
 
 2. Instale as dependências:
 ```bash
-pip install python-telegram-bot beautifulsoup4 requests
+pip install python-telegram-bot beautifulsoup4 requests python-dotenv
 ```
 
 3. Execute o bot:
